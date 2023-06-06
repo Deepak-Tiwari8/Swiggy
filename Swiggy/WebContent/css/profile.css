@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type: none;
+}
+
+/* Wrapper css */
+#wrapper{
+    width: 1200px;
+    margin: 80px auto 0px auto;
+    border:1px solid black;
+}
+
+.left{
+	width:300px;
+	height:200px;
+	margin:20px 0px 0px 20px;
+	float:left;
+}
+h1{
+	text-align: start;
+    font-size: 23px;
+    font-weight: 900;
+    margin: 0px 0px 30px 0px;
+}
+
+.containerProfile{
+	width:1000px;
+	background-color:white;
+	margin:0 auto;
+}
+
+.right{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 27px -30px 0px 20px;
+}
+
+.clearBoth{
+	clear:both;
+}
+
+#profileBtn{
+    width: 200px;
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.subContainer{
+  width: 1015px;
+    height: 500px;
+    background-color: #edf1f7;
+    margin: -73px 0px 60px -8px;
+}
+
+#leftSub{
+    width: 320px;
+    margin: 40px 0px 0px -314px;
+    float: left;
+}
+
+#rightSub{
+	width: 668px;
+    height: 398px;
+    border: 1px solid black;
+    margin: 40px -185px 0px -482px;
+    float: right;
+}
+
+.profileUl{
+	padding: 20px 0px;
+    display: block;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0px 0px 0px 15px;
+    text-transform: capitalize;
+    background-color: lightcoral
+}
+
+a{
+	color:black;
+}

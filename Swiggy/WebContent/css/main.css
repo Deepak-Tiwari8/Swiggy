@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 80px;
+}
+
+/* sub_wrapper */
+.sub_wrapper{
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* logo_home Set */
+#logo_home{
+    width: 41px;
+    height: 43px;
+    margin: 21px 0px 0px 44px;
+    position: absolute;
+    float: left;
+}
+
+#swiggy_id{
+    position: relative;
+    top: 28px;
+    left: 90px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+/* search_location */
+.search_location{
+    width: 220px;
+    float: left;
+    margin: 7px 0px 0px 200px;
+    font-size: 18px;
+    font-weight: 800;
+    color: gray;
+}
+
+.input_search{
+    width: 500px;
+    margin: 0px 0px 0px 600px;
+    height: 20px;
+    position: absolute;
+}
+
+#search_resturant{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#serach_icon{
+    width: 94px;
+    height: 36px;
+    position: relative;
+    top: -39px;
+    left: 408px;
+}
+
+.admin_icon{
+    width: 100px;
+    margin: 8px 0px 0px 1124px;
+}
+
+#admin_hover:hover{
+    background-color: darkred;
+}
+
+#Admin_icon{
+    width: 100px;
+    height: 20px;
+}
+
+.clear_both{
+    clear: both;
+}
+
+.banner_section{
+    width: 100%;
+}
+
+.sub_banner{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(144, 131, 156);
+    height: 200px;
+}
+
+.content{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.left_section{
+    display: inline-block;
+    margin: 34px 0px 0px 54px;
+}
+
+.right_section{
+    display: inline-block;
+    margin: 20px 0px 0px 0px;
+}
+
+#banner_img{
+    width: 348px;
+    height: 194px;
+    margin: -162px 0px 0px 930px;
+}
+
+
+/* main_section */
+.main_section{
+    width: 1240px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+#uname{
+	font-size: 18px;
+    font-weight: 900;
+    margin: 6px 0px 0px -185px;
+    display: inline-block;
+}
+
+
+/* burger1 Banner */
+
+.burger1{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#BurgerId{
+    width: 300px;
+    height: 250px;
+    margin: 32px 0px 0px 0px;
+    position: absolute;
+}
+#price_burger{
+    position: relative;
+    top: 268px;
+    left: 95px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container_big_images{
+    width: 1240px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Coca_cola banner 2 */
+.Coca_cola{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: -93px 0px 0px 0px;
+    position: absolute;
+}
+
+#Coca_colaId{
+    width: 300px;
+    height: 250px;
+    margin: -176px 0px 0px 280px;
+}
+
+#price_CocaCola{
+    position: relative;
+    top: -5px;
+    left: 384px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* banner_top design */
+.banner_top{
+    width: 200px;
+    margin:24px 0px 0px 20px;
+    float: left;
+}
+.north_indian{
+width: 200px;
+}
+#North_Indian{
+    width: 177px;
+    height: 177px;
+}
+#hr_banner{
+    width: 1195px;
+    border: 1px solid slategray;
+    margin: 0 auto;
+}
+
+.Burger{
+    width: 200px;
+    margin: -182px 0px 0px 200px;
+}
+
+#burger{
+    width: 177px;
+    height: 177px;
+}
+
+.clear_both_banner{
+    clear: both;
+}
+
+/* sub_restaurant_chain_section */
+
+.sub_restaurant_chain_section{
+    width: 300px;
+    margin: 10px 0px 0px 24px;
+}
+
+#restaurant_chain_heading{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 6px 0px 0px 0px;
+    display: inline-block;
+}
+/* footer css */
+.footer{
+    width: 1240px;
+    background-color: #1e100b;
+    color: white;
+    margin: 300px auto 0px;
+}
+
+.company{
+    float: left;
+}
+.company a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: grey;
+}
+
+#comp1{
+    margin-top: 35px;
+    margin-left: 72px;
+    display: inline-block;
+    color: grey;
+}
+
+.clear_both_3{
+    clear: both;
+}
+
+.contact{
+    float: left;
+    margin-top: 53px;
+}
+.contact a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: grey;
+}
+
+#cont1{
+    margin-left: 145px;
+    display: inline-block;
+    color: grey;
+    margin-top: -51px;
+}
+
+.legal{
+    float: left;
+}
+
+.legal a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: grey;
+}
+
+#leg1{
+    margin-left: 145px;
+    display: inline-block;
+    color: grey;
+    margin-top: 40px;
+}
+
+.app{
+    width: 300px;
+    color: white;
+    position: absolute;
+}
+
+#google_play_1{
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin-top: 65px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 934px;
+    display: inline-block;
+    position: relative;
+}
+
+#google_play_1 a{
+    color: black;
+}
+
+#App_store_1 a{
+    color: black;
+}
+
+#App_store_1{
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin-top: 55px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 934px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+}
+
+hr{
+    margin-top: 10px;
+    border: 3px solid silver;
+}
+
+
+#another_swiggy_logo{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+#swiggy_another_heading{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight: 800;
+    color: orange;
+}
+
+#copyright{
+    float: right;
+    margin-top: 40px;
+    margin-right: 607px;
+}
+
+

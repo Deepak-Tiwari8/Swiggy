@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+	 list-style-type: none;
+    text-decoration: none;
+}
+/* Header css */
+
+header{
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: white;
+    z-index: 1000;
+    padding: 0 20px;
+}
+
+/* container css */
+.container{
+    height: 78px;
+}
+
+/* sub_container css */
+.sub_container1{
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 80px;
+    background: white;
+}
+
+
+/* swiggy_logo css */
+.swiggy_logo{
+    display: block;
+    height: 46px;
+    margin-right: 16px;
+}
+
+/* logo */
+#logo{
+    width: 40px;
+    height: 50px;
+    margin: 10px 0px 0px -963px;
+}
+
+/* sub_container2 css */
+.sub_container2{
+    margin: -20px 0px 0px 72px;
+    max-width: 300px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* nav_bar css */
+.nav_bar{
+    width: 674px;
+    margin: -28px 0px 0px 466px;
+}
+
+#user1{
+    color: red;
+}
+
+ ul li{
+    display: inline;
+}
+
+
+.Search{
+    margin: 0px 35px 0px 35px;
+    font-size: medium;
+    font-weight: 700;
+    color:black;
+}
+
+.Search:hover{
+    color: orangered;
+     border-bottom:2px solid red;
+}
+
+.Offers{
+    margin: 0px 35px 0px 35px;
+    font-size: medium;
+    font-weight: 700;
+    color:black;
+}
+
+.Offers:hover{
+    color: orangered;
+    border-bottom:2px solid red;
+}
+
+.Help{
+    margin: 0px 35px 0px 35px;
+    font-size: medium;
+    font-weight: 700;
+    color:black;
+}
+
+.Help:hover{
+    color: orangered;
+     border-bottom:2px solid red;
+}
+
+.Account{
+    margin: 0px 35px 0px 35px;
+    font-size: medium;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    color:black;
+}
+
+.Account:hover{
+    color: orangered;
+     border-bottom:2px solid red;
+}
+
+/* profil_section */
+.profil_section{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin: 15px 0px 0px 762px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+   
+}
+
+#profil_sectionUl a{
+    display: block;
+    height: 30px;
+}
+
+.Cart{
+    margin: 0px 35px 0px 35px;
+    font-size: medium;
+    font-weight: 700;
+    color:black;
+}
+
+.Cart:hover{
+    color: orangered;
+}

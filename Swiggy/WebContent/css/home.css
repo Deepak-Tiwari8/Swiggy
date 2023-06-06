@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.main_container{
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.clear_both{
+    clear: both;
+}
+/* left_div_logo */
+.left_div_logo{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin-right: 20px;  
+    float: left; 
+}
+
+.container{
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+}
+/* right_div_image_banner */
+.right_div_image_banner{
+    width: 600px;
+    height: 600px;
+    margin-left: 20px;
+    float: right;
+}
+
+#banner{
+    width: 600px;
+    height: 600px;
+}
+/* logo Section */
+#logo{
+   display: inline-block;
+   width: 40px;
+   margin: 20px 0px 0px 20px;
+   position: absolute;
+}
+
+#swiggy_heading{
+    margin: 0px 0px 0px 60px;
+    color: #fc8019;
+    font-size: 35px;
+    font-weight: 900;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    letter-spacing: 5px;
+}
+
+
+/* right_login_sign */
+.right_login_sign{
+    display: block;
+    float: right;
+    margin: 0px 40px 0px 0px;
+    padding: 20px;
+}
+
+/* sign_up button and Login button */
+#login{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#login:hover
+{
+    color: #fc8019;
+}
+
+#sign_up{
+    background-color: black;
+    color: white;
+    width: 84px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 14px;
+}
+
+/* textt Greeting*/
+.txt{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+}
+
+#order_food{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+
+
+/* search_food bar */
+.search_food{
+   margin-top: 25px;
+    margin-left: 23px;
+}
+
+#search_bar{
+    width: 346px;
+    height: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+#find_food{
+    width: 119px;
+    height: 51px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+    background-color: #fc8019;
+    position: absolute;
+    cursor:pointer;
+    margin-top: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#locate_icon{
+    width: 30px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    left: -116px;
+}
+
+input[type="text"]{
+    outline: none;
+    font-weight: bold;
+}
+
+input[type="text"]:hover{
+    color: #fc8019;
+}
+
+/* popular_city section  */
+
+#popular_city{
+    margin-top: 25px;
+    margin-left: 45px;
+    color: gray;
+}
+
+/* Achor Link for Hotel Location */
+
+ul li{
+    margin-top: 10px;
+    margin-left: 45px;
+    display: inline-block;
+    color: #686b78;
+}
+
+li a{
+    color: grey;
+}
+ li:nth-child(odd){
+    color: black;
+    font-weight: 900;
+}
+
+
+/* mini_banner */
+.mini_banner{
+    width: 100%;
+    height: 400px;
+    background-color: #1e100b;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+} 
+
+.clear_both_1{
+    clear: both;
+}
+
+h2{
+    margin-top: 10px;
+}
+span{
+    margin-top: 20px;
+    display: inline-block;
+    color: grey;
+    font-size: 17px;
+}
+
+#img1{
+    width: 190px;
+    height: 200px;
+}
+
+#img2{
+    width: 190px;
+    height: 200px;
+}
+
+#img3{
+    width: 190px;
+    height: 200px;
+}
+
+.sub1{
+    float: left;
+    width: 350px;
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 1px;
+}
+
+
+.sub2{
+    float: left;
+    width: 350px;
+    position: absolute;
+    margin-left: 526px;
+    margin-top: 4px;
+}
+
+.sub3{
+    float: left;
+    width: 350px;
+    position: absolute;
+    margin-left: 962px;
+    margin-top: 4px;
+}
+
+/* app_store */
+
+.app_store{
+    width: 1240px;
+    height: 400px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.clear_both_2{
+    clear: both;
+}
+
+.left_play_store{
+    width: 500px;
+    margin-left: 64px;
+    height: 300px;
+    color: black;
+    margin-top: 125px;
+    display: inline-block;
+}
+
+a{
+    color: white;
+}
+#google_play{
+    background-color: black;
+    color: white;
+    width: 160px;
+    text-align: center;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.left_play_store a span{
+    color: white;
+    background-color: black;
+}
+
+#App_store{
+    background-color: black;
+    color: white;
+    width: 160px;
+    text-align: center;
+    height: 80px;
+    margin-top: -80px;
+    border-radius: 20%;
+    float: left;
+    margin-left: 190px;
+}
+
+
+/* right_mobile Section */
+
+.right_mobile{
+    display: block;
+    float: right;
+    width: 500px;
+}
+
+#mobile1{
+    width: 603px;
+    height: 442px;
+    margin-top: -100px;
+    margin-left: -277px;
+}
+
+#mobile2{
+    width: 204px;
+    height: 342px;
+    margin-top: -288px;
+    margin-left: 174px;
+}
+
+
+/* footer section */
+.footer{
+    width: 1240px;
+    background-color: #1e100b;
+    color: white;
+}
+
+.company{
+    float: left;
+}
+.company a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: grey;
+}
+
+#comp1{
+    margin-top: 35px;
+    margin-left: 72px;
+    display: inline-block;
+    color: grey;
+}
+
+.clear_both_3{
+    clear: both;
+}
+
+.contact{
+    float: left;
+    margin-top: 53px;
+}
+.contact a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: grey;
+}
+
+#cont1{
+    margin-left: 145px;
+    display: inline-block;
+    color: grey;
+    margin-top: -51px;
+}
+
+.legal{
+    float: left;
+}
+
+.legal a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: grey;
+}
+
+#leg1{
+    margin-left: 145px;
+    display: inline-block;
+    color: grey;
+    margin-top: 40px;
+}
+
+.app{
+    width: 300px;
+    color: white;
+    position: absolute;
+}
+
+#google_play_1{
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin-top: 65px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 934px;
+    display: inline-block;
+    position: relative;
+}
+
+#google_play_1 a{
+    color: black;
+}
+
+#App_store_1 a{
+    color: black;
+}
+
+#App_store_1{
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    margin-top: 55px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 934px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+}
+
+hr{
+    margin-top: 10px;
+    border: 3px solid silver;
+}
+
+
+#another_swiggy_logo{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+#swiggy_another_heading{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight: 800;
+    color: orange;
+}
+
+#copyright{
+    float: right;
+    margin-top: 40px;
+    margin-right: 607px;
+}
+/* Register form and login css */
+
+#overlay
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+#SignupOrLogin
+{
+	width: 400px;
+	height: 300px;
+	color: black;
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: none;
+	border-radius: 10px;
+    z-index: 1;
+}
+
+
+input[type=text]
+{
+	padding: 10px;
+	margin: 10px 0px 0px 17px;
+	border: 2px solid black;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+input[type=password]
+{
+	padding: 10px;
+    margin: 10px 0px 0px 23px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#sub
+{
+	padding: 10px;
+	width: 100px;
+	height: 36px;
+	background-color: blue;
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	border: none;
+}
+
+#clo
+{
+	padding: 10px;
+	width: 100px;
+	height: 36px;
+	background-color: aquamarine;
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	margin-left: 5px;
+	border: none;
+}
+/* login form */
+.LoginBox1 
+{
+	padding: 10px;
+	margin: 14px 0px 0px 15px;
+}
+
+.LoginBox2
+{
+	padding: 10px;
+	margin: 14px 0px 0px 15px;
+}
+
+#Username_Id
+{
+	display: block;
+	margin-top: 7px;
+	margin-left: 168px;
+	position: absolute;
+}
+
+#password_Id
+{
+	display: block;
+	margin-top: 7px;
+	margin-left: 168px;
+	position: absolute;
+}
+
+.buttons_Login
+{
+	margin-top: 35px;
+}
+/* SignupOrLogin end */
+
+/* Registration Page start */
+#register
+{
+	width: 466px;
+	height: 760px;
+	color: black;
+	z-index: 2;
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: none;
+	border-radius: 20px;
+}
+
+.box1
+{
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: -26px;
+}
+
+.box2
+{
+	padding: 10px;
+	margin-top: 0px;
+	margin-left: -26px;
+}
+
+.box3
+{
+   padding: 10px;
+    margin-top: -3px;
+    margin-left: -44px;
+}
+
+.box4
+{
+	padding: 10px;
+    margin-top: 0px;
+    margin-left: -60px;
+}
+
+.box5
+{
+	padding: 10px;
+    margin-top: -14px;
+    margin-left: -62px;
+}
+
+.box6
+{
+	padding: 10px;
+    margin-top: -4px;
+    margin-left: -121px;
+}
+
+.box7
+{
+   padding: 10px;
+    margin-top: 6px;
+    margin-left: -44px;
+}
+
+
+.buttons
+{
+	margin-top:30px;
+}
+
+#btn1
+{
+	width: 100px;
+	height: 40px;
+	margin-left: -114px;
+	margin-right: -85px;
+}
+
+#btn2
+{
+	width: 100px;
+	height: 40px;
+	margin-left: 110px;
+	margin-right: 23px;
+}
+
+#btn3
+{
+	width: 100px;
+	height: 40px;
+	margin-top: 1px;
+	margin-right: -115px;
+}
+
+#User_Name
+{
+	margin: 5px 0px 0px 172px;
+    display: block;
+    width: 172px;
+    position: absolute;
+}
+
+#user_email_address
+{
+	margin: 6px 0px 0px 181px;
+	display: block;
+	width: 180px;
+	position: absolute;
+}
+
+#user_phone_no
+{
+	 margin: 4px 0px 0px 203px;
+    display: block;
+    width: 180px;
+    position: absolute;
+}
+
+#user_address_err
+{
+	margin: 10px 0px 0px 203px;
+    display: block;
+    width: 180px;
+    position: absolute;
+}
+
+#user_zipcode_err
+{
+    margin: 10px 0px 0px 198px;
+    display: block;
+    width: 180px;
+    position: absolute;
+}
+
+#password_user
+{
+    margin: 5px 0px 0px 201px;
+    display: block;
+    width: 180px;
+    position: absolute;
+}
+
+#confirm_password
+{
+	margin: 3px 0px 0px 268px;
+    display: block;
+    width: 180px;
+    position: absolute;
+}
+
+#btn11
+{
+	width: 100px;
+	height: 40px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+#btn21
+{
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#btn31
+{
+	width: 100px;
+	height: 40px;
+}
+
+#city{
+    margin: -30px 37px 0px 32px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#country{
+	margin: 27px 54px 0px 23px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
+#state{
+	 margin: -30px 37px 0px 32px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
+

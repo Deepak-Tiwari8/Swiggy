@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .wrapper{
+    width: 1000px;
+    height: 687px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: aliceblue;
+  }
+  
+  .account{
+    width: 160px;
+    color: white;
+    margin: -21px 0px 0px 0px;
+    float: right;
+  }
+
+  #partner_account{
+    font-size: 30px;
+    font-weight: 800;
+    display: inline-block;
+    margin: -28px 0px 0px 0px;
+  }
+
+  #header {
+    background-color: #f44336;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .clear_both{
+    clear: both;
+  }
+
+  #sidebar {
+    float: left;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    height: 600px;
+  }
+  
+  #sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #sidebar li {
+    padding: 10px;
+  }
+  
+  #sidebar li a {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+  #sidebar li a:hover {
+    background-color: #b1d716;
+  }
+  
+  #content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
+ 
+  #footer {
+    width: 983px;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    margin: 0 auto;
+  }
+  

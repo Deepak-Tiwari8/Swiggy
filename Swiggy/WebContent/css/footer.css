@@ -1,0 +1,138 @@
+/* footer section */
+.footer{
+    width: 1200px;
+    background-color: #1e100b;
+    color: white;
+    margin: 0px auto;
+}
+
+.company{
+    float: left;
+}
+.company a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: grey;
+}
+
+#comp1{
+    margin-top: 35px;
+    margin-left: 72px;
+    display: inline-block;
+    color: grey;
+}
+
+.clear_both_3{
+    clear: both;
+}
+
+.contact{
+    float: left;
+    margin-top: 57px;
+}
+.contact a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: grey;
+}
+
+#cont1{
+    margin-left: 145px;
+    display: inline-block;
+    color: grey;
+    margin-top: -13px;
+}
+
+.legal{
+    float: left;
+}
+
+.legal a{
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: grey;
+}
+
+#leg1{
+    margin-left: 145px;
+    display: inline-block;
+    color: grey;
+    margin-top: 40px;
+}
+
+.app{
+    width: 300px;
+    color: white;
+    position: absolute;
+}
+
+#google_play_1{
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    margin-top: 65px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 934px;
+    display: inline-block;
+    position: relative;
+}
+
+#google_play_1 a{
+    color: black;
+}
+
+#App_store_1 a{
+    color: black;
+}
+
+#App_store_1{
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    margin-top: 55px;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 934px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+}
+
+hr{
+    margin-top: 10px;
+    border: 3px solid silver;
+}
+
+
+#another_swiggy_logo{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+#swiggy_another_heading{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight: 800;
+    color: wheat;
+}
+
+#copyright{
+    float: right;
+    margin-top: 40px;
+    margin-right: 607px;
+}
+ 
+ .clearBoth{
+ clear:both;
+ }
